@@ -15,7 +15,6 @@ font-weight: 400;
 body{
     display: flex;
     height: 100vh;
-
     flex-direction: column;
 }
 
@@ -42,6 +41,7 @@ label{
     margin-bottom: 24px;
     font-weight: bold;
 }
+
 input{
     line-height: 1.6;
     padding: 0.5rem;
