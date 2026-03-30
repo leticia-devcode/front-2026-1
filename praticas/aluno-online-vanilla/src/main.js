@@ -46,6 +46,6 @@ botao.addEventListener('click', function() {
 
 
     if (!temErro) {
-    window.location.href = "teste.html";
+    window.location.href = "./home.html";
 }
 });
