@@ -1,72 +1,34 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aluno Online</title>
+    <link rel="stylesheet" href="style.css">
+    <title>aula01</title>
   </head>
   <body>
-
-    
-    <aside>
-
-      <header>
-        <img src="learn.svg">
-        <h1>Aluno Online</h1>
-      </header>
-
-      <ul>
-        <li>Dashboard</li>
-        <li>Notas</li>
-        <li>Faltas</li>
-        <li>Boletos</li>
-        <li>Requerimentos</li>
-        <li>Sair</li>
-      </ul>
-
-
-    </aside>
-
     <main>
+      <img src="/assets/" width="64" alt="logo-aluno-online">
       
-      <header>
-        <h1>Olá, Aluno!</h1>
-        <img src="avatar.svg">
-      </header>
+      <h1>Aluno Online</h1>
 
-      <br>
-
-      <h2>Bem-vindo ao portal do aluno</h2>
-
-      <br>
-
-      <section class="dashboard">
-
-        <h3>Mural de avisos</h3>
-        <p>Inscrição para o projeto de extensão</p>
-        <p>Eleição para representante de turma</p>
+        <label for="nome">Matrícula</label>
         
-      </section>
+          <input type="number" id="matricula" name="matricula">
+          
+            <p id="matriculaErro"></p>
 
-      <section class="dashboard">
+        <label for="senha">Senha</label>
 
-        <h3>Calendário Acadêmico</h3>
-        <p>23/02 - Inicio do período letivo</p>
-        <p>25/04 - Prazo final para aplicação da P1</p>
-        <p>23/06 - Prazo final para aplicação da P2</p>
+          <input type="password" id="senha" name="senha">
+
+            <p id="senhaErro"></p>
         
-      </section>
-
-      <section class="dashboard">
-
-        <h3>Aula hoje (Segunda-feira)</h3>
-        <p>Construção de Front-end</p>
-        
-      </section>
-
-    </main>
+        <button type="button">Entrar</button>  
     
-    <script type="module" src="/src/main.js"></script>
+    </main>
+
+  <script src="main.js"></script>
   </body>
 </html>

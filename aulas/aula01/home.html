@@ -1,28 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aluno Online</title>
+<link rel="stylesheet" href="src/dashboardStyle.css">
 </head>
+
 <body>
-    <header>
-        <button>=</button>
-        <h1>Aluno Online</h1>
-        <img src="" alt="icone do avatar">
-    </header>
-    <main>
-        <section>
-           <h2>Aula do Dia</h2>
-        </section>
-        <section>
-            <h2>Lembretes</h2>
-        </section>
-        <section>
-            <h2>Calendário</h2>
-        </section>
-    </main>
-    <script type="module" src="/src/main.js"></script>
+
+<aside class="sidebar">
+
+<header class="logo">
+<img src="public/learning-school-svgrepo-com (2).svg" alt="Ícone de formatura">
+<h2>Aluno Online</h2>
+</header>
+<nav>
+
+<ul>
+<li><a href="#">Dashboard</a></li>
+<li><a href="#">Notas</a></li>
+<li><a href="#">Faltas</a></li>
+<li><a href="#">Boletos</a></li>
+<li><a href="#">Requerimentos</a></li>
+<li><a href="#">Sair</a></li>
+</ul>
+
+</nav>
+</aside>
+
+<main>
+
+<header class="topbar">
+<h1>Olá, Aluno!</h1>
+<img src="public/vite.svg" alt="Avatar do usuário" class="avatar">
+</header>
+
+<section class="boas-vindas">
+<h2>Bem-vindo ao portal do aluno</h2>
+</section>
+
+<section class="cards">
+<article class="card">
+
+<header>
+<h3>Mural de Avisos</h3>
+</header>
+
+<ul>
+<li>Inscrição para o projeto de extensão</li>
+<li>Eleição para representante de turma</li>
+</ul>
+
+</article>
+
+<article class="card">
+
+<header>
+<h3>Calendário Acadêmico</h3>
+</header>
+
+<ul>
+<li>23/02 - Início do período letivo 2026-1</li>
+<li>25/04 - Prazo final para aplicação da P1</li>
+<li>23/06 - Prazo final para aplicação da P2</li>
+<li>04/07 - Fim do período letivo 2026-1</li>
+</ul>
+
+</article>
+
+<article class="card">
+
+<header>
+<h3>Minhas Disciplinas</h3>
+</header>
+
+<ul>
+<li>BI e Data Warehousing</li>
+<li>Construção de Frontend</li>
+<li>Experiência do Usuário</li>
+</ul>
+
+</article>
+</section>
+</main>
 </body>
+
 </html>
