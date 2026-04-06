@@ -105,7 +105,7 @@
     margin-bottom:8px;
     }
     
-    @media (min-width:768px){
+    @media (width >= 768px){
     body{
     flex-direction:row;
     }
@@ -123,5 +123,4 @@
     .cards{
     grid-template-columns:1fr 1fr;
     }
-    
     }

@@ -4,18 +4,13 @@
     box-sizing: border-box;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
 :root{
-font-family: Arial, Helvetica, sans-serif;
-font-size: 1rem;
-font-weight: 400;
---cor-primaria: #5a91c5;
---cor-decundaria: #4057a5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    --cor-primaria: #5a91c5;
+    --cor-decundaria: #4057a5;
 }
 
 body{
@@ -62,7 +57,6 @@ button{
     border: none;
     padding: 0.5rem;
     border-radius: 8px;
-
 }
 
 button:hover{
@@ -89,12 +83,9 @@ header > h1{
     color: white;
 }
 
-@media(min-width: 768px){
-    
+@media(width >= 768px){
     main{
         margin: 64px auto;
-        /* border: 1px solid var(--cor-primaria); */
         max-width: 400px;
-
     }
 }
