@@ -1,12 +1,34 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aluno Online</title>
+    <link rel="stylesheet" href="src/style.css">
+    <title>aula01</title>
   </head>
   <body>
-    <script type="module" src="/src/main.js"></script>
+    <main>
+      <img src="public/learning-school-svgrepo-com (2).svg" width="64" alt="logo-aluno-online">
+      
+      <h1>Aluno Online</h1>
+
+        <label for="nome">Matrícula</label>
+        
+          <input type="number" id="matricula" name="matricula">
+          
+            <p id="matriculaErro"></p>
+
+        <label for="senha">Senha</label>
+
+          <input type="password" id="senha" name="senha">
+
+            <p id="senhaErro"></p>
+        
+        <button type="button">Entrar</button>  
+    
+    </main>
+
+  <script src="src/main.js"></script>
   </body>
 </html>
