@@ -1,7 +1,8 @@
 const matricula = document.querySelector('#matricula');
 const senha     = document.querySelector('#senha');
 const botao     = document.querySelector('button');
-
+const matriculaErro = document.querySelector("#matriculaErro");
+const senhaErro     = document.querySelector("#senhaErro");
 
 matricula.addEventListener('input', function() {
     if (matricula.value !== '' && matricula.value.length === 10) {
@@ -16,10 +17,6 @@ senha.addEventListener('input', function() {
 });
 
 botao.addEventListener('click', function() {
-
-    const matriculaErro = document.querySelector("#matriculaErro");
-    const senhaErro     = document.querySelector("#senhaErro");
-
     matriculaErro.textContent = '';
     senhaErro.textContent = '';
     let temErro = false;
@@ -43,7 +40,6 @@ botao.addEventListener('click', function() {
         senhaErro.textContent = "Senha deve conter no mínimo 8 caracteres";
         temErro = true;
     }
-
 
     if (!temErro) {
     window.location.href = "./home.html";
