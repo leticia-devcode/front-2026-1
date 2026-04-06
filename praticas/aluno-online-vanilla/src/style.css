@@ -82,11 +82,9 @@ header > h1{
     color: white;
 }
 
-@media(min-width: 768px){
+@media(width >= 768px){
     main{
         margin: 64px auto;
-        /* border: 1px solid var(--cor-primaria); */
         max-width: 400px;
-
     }
 }
