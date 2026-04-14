@@ -57,7 +57,6 @@ function Tabela(props) {
     </article>
 
     );
-
     
 }
 
