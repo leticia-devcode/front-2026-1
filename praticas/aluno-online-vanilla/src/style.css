@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    --cor-primaria: #5a91c5;
+    --cor-decundaria: #4057a5;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+img{
+    height: 128px;
+    width: 128px;
+    margin: 16px auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+label{
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+input{
+    line-height: 1.6;
+    padding: 0.5rem;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+button{
+    background-color: #54a4ee;
+    line-height: 1.6;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: var(--cor-decundaria);
+}
+
+/* pagina home */
+
+header{
+    display:flex;
+    align-items: center;
+    height: 56px;
+    padding: 0.6rem;
+    background-color: var(--cor-primaria);
+}
+
+header >img {
+    height: 32px;
+    width: 32px;
+}
+
+header > h1{
+    margin: 0;
+    color: white;
+}
+
+@media(width >= 768px){
+    main{
+        margin: 64px auto;
+        max-width: 400px;
+    }
+}
