@@ -1,22 +1,17 @@
-
+import {Link, NavLink} from "react-router"
+import "./Menu.css"
 function Menu() {
     
-    return (
-
-    <nav className="mt-12 px-7">
-    
-        <ul className="list-disc space-y-8">
-          <li>Dashboard</li>
-          <li>Notas</li>
-          <li>Faltas</li>
-          <li>Boletos</li>
-          <li>Requerimentos</li>
-          <li>Sair</li>
-        </ul>
-    
-    </nav>
-
-    );
+    return<nav>
+    <ul>
+        <li><NavLink to="/"></NavLink></li>
+        <li><NavLink to="/boletos">Boletos</NavLink></li>
+        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+        <li><NavLink to="/faltas">Faltas</NavLink></li>
+        <li><Link to="/notas">Notas</Link></li>
+        <li><Link to="/requerimentos">Requerimentos</Link></li>
+    </ul>
+</nav>
 }
 
 export default Menu;

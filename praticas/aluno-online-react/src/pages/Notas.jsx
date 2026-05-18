@@ -2,7 +2,7 @@ import Sidebar from "../components/SideBar";
 import Topbar from "../components/TopBar";
 import Tabela from "../components/Tabela";
 import Main from "../components/Main";
-
+import Menu from "../components/Menu";
 function Notas() {
 
     const colunas = 
@@ -41,9 +41,8 @@ function Notas() {
 
     return (
 
-        <section className="flex h-screen">
-        
-        <Sidebar />
+        <section>
+
 
             <Main 
             

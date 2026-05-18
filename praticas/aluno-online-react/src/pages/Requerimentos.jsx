@@ -1,7 +1,7 @@
 import Main from "../components/Main";
 import Sidebar from "../components/SideBar";
 import Tabela from "../components/Tabela";
-
+import Menu from "../components/Menu";
 function Requerimentos() {
 
     const colunas = 
@@ -27,9 +27,7 @@ function Requerimentos() {
 
     return (
 
-        <section className="flex h-screen">
-
-        <Sidebar />
+        <section>
 
         <Main 
         

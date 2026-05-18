@@ -24,10 +24,8 @@ function Dashboard() {
 
     return (
         
-        <section className="flex h-screen">
-            
-            <Sidebar />
-            
+        <section >
+
             <Main 
             
                 titulo="Olá, aluno"
