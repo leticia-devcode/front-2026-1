@@ -1,7 +1,7 @@
 import Main from "../components/Main.jsx"
 import Sidebar from "../components/SideBar.jsx"
 import Tabela from "../components/Tabela.jsx"
-
+import Menu from "../components/Menu";
 function Faltas() { 
 
     const colunas = 
@@ -31,10 +31,9 @@ function Faltas() {
 
     return (
 
-        <section className="flex h-screen">
-            
-            <Sidebar />
-            
+        <section >
+
+
             <Main 
 
                 titulo="Minhas Faltas"

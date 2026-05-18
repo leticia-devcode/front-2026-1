@@ -1,7 +1,7 @@
 import Main from "../components/Main.jsx"
 import Sidebar from "../components/SideBar.jsx"
 import Tabela from "../components/Tabela.jsx"
-
+import Menu from "../components/Menu";
 function Boletos() {
 
         const colunas = 
@@ -35,9 +35,8 @@ function Boletos() {
 
     return (
 
-        <section className="flex h-screen">
-        
-        <Sidebar />
+        <section >
+
 
         <Main 
         
